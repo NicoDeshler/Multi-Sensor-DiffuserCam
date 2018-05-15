@@ -16,7 +16,8 @@ Zemax uses a custom API known as the ZOS-API.NET. You will be using this API to 
 
 *Two vital resources for successfully implementing the ZOS-API in your code are the API documentation and the Intellisense feature.* 
 
-You can find the API documentation by navigating through the following tabs in an open session of OpticStudio: `Help>ZOS-API>Documentation`. The documentation also contains some informative snippets of example code as a syntactic guide. Intellisense is an autocompletion feature that comes with the ZOS-API. As you write your code, Intellisense provides a drop down list of accessible methods and attributes for a given object instance. This feature will drastically streamline the process of writing functional code. 
+You can find the API documentation by navigating through the following tabs in an open session of OpticStudio: 
+`Help>>>ZOS-API>>>Documentation`. The documentation also contains some informative snippets of example code as a syntactic guide. Intellisense is an autocompletion feature that comes with the ZOS-API. As you write your code, Intellisense provides a drop down list of accessible methods and attributes for a given object instance. This feature will drastically streamline the process of writing functional code. 
 
 
 ### Articles
