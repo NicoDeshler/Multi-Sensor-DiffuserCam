@@ -1,4 +1,4 @@
-# Multi-Sensor-DiffuserCam
+# Multi-Sensor DiffuserCam
 The Multi-Sensor DiffuserCam project explores diffuser-based imaging systems with multiple sensors. This repository contains MATLAB scripts that interface with Zemax OpticStudio (version 13 and above) allowing users to run analyses available in the OpticStudio suite on a lens file of their choice.
 
 
@@ -12,11 +12,11 @@ The Interactive Extension *actually opens* a live session of OpticStudio when yo
 The Standalone Application *does not open* a live session of OpticStudio when you run your MATLAB code. Instead, the optical analyses available in Zemax are accessed independently from the GUI yet still run on your lens file. This improves performance and is the ideal way to programmatically interact with Zemax.   
 
 ## Writing your own Analysis and ZOS-API
-Zemax has its own API called the ZOS-API.NET containing methods (analyses) and object attributes for the surfaces in your lens file. While we refrain from providing step-by-step instructions on setting up a MATLAB file that interfaces with Zemax, we have listed a collection of informative articles and video tutorials from the Zemax Knowledgebase that should help you get started. We recommend that you first experiment by following along with the tutorials before reading the articles. Users are also welcome to download the MATLAB scripts from this repository and simply modify the boilerplate code for their purposes.
+Zemax uses a custom API known as the ZOS-API.NET. You will be using this API to call methods, run analyses, and get object attributes for the surfaces in your lens file. While we refrain from providing step-by-step instructions on setting up a MATLAB file that utilizes the API and interfaces with Zemax, we have listed a collection of informative articles and video tutorials from the Zemax Knowledgebase that should help you get started with this.
 
 *Two vital resources for successfully implementing the ZOS-API in your code are the API documentation and the Intellisense feature.* 
 
-You can find the API documentation by navigating through the following tabs in an open session of OpticStudio: A>B>C. The documentation also contains some informative snippets of example code as a syntactic guide. Intellisense is an autocompletion feature that comes with the ZOS-API. As you write your code, Intellisense provides a drop down list of accessible methods and attributes for a given object instance. This feature will drastically streamline the process of writing functional code. 
+You can find the API documentation by navigating through the following tabs in an open session of OpticStudio: `Help/ZOS-API/Documentation`. The documentation also contains some informative snippets of example code as a syntactic guide. Intellisense is an autocompletion feature that comes with the ZOS-API. As you write your code, Intellisense provides a drop down list of accessible methods and attributes for a given object instance. This feature will drastically streamline the process of writing functional code. 
 
 
 ### Articles
@@ -27,14 +27,8 @@ You can find the API documentation by navigating through the following tabs in a
 - [Creating a User Analysis with ZOS-API](http://customers.zemax.com/os/resources/learn/knowledgebase/how-to-create-a-user-analysis-using-zos-api)
 
 ### Tutorials
+- [General Interfacing and ZOS-API Overview](http://customers.zemax.com/os/opticstudio/opticstudio/user-interface/zos-api)
 - [Setting Up a Standalone Application in MATLAB](http://customers.zemax.com/zmx/webinars/opticstudio-recordings/matlab-zos-api-net)
-
-
-- [T](http://customers.zemax.com/os/opticstudio/opticstudio/user-interface/zos-api)
-
--Intellisense
--Accessing documentation
-
 
 ## Example 
 
