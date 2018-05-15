@@ -11,9 +11,22 @@ The Interactive Application *actually opens* a live session of OpticStudio when 
 ### The Standalone Application
 The Standalone Application *does not open* a live session of OpticStudio when you run your MATLAB code. Instead, the optical analyses available in Zemax are accessed independently from the GUI and run on your lens file. This improves performance and is the ideal way to programmatically interact with Zemax.   
 
-## Example for the User 
+## Writing your own Analysis and The ZOS-API
+### Setting Up Your Interactive Application - MATLAB FILE
 
-## How Do I Write my own Analysis? + The ZOS-API
+### Setting Up Your Standalone Application - MATLAB File
+See this [tutorial](http://customers.zemax.com/zmx/webinars/opticstudio-recordings/matlab-zos-api-net)
+###
+
+Zemax has its own API for accessing methods and object attributes. While we refrain from going into too much detail here, the 
+-Intellisense
+-Accessing documentation
+
+## Setting Up
+
+
+
+## Example 
 
 
 
