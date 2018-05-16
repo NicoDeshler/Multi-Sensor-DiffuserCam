@@ -1,6 +1,14 @@
 # Multi-Sensor DiffuserCam
-The Multi-Sensor DiffuserCam project explores diffuser-based imaging systems with multiple sensors. This repository contains MATLAB scripts that interface with Zemax OpticStudio (version 13 and above) allowing users to run analyses available in the OpticStudio suite on a lens file of their choice.
+The Multi-Sensor DiffuserCam project explores diffuser-based imaging systems with multiple sensors. This repository contains MATLAB scripts that interface with Zemax OpticStudio allowing users to run analyses available in the OpticStudio suite on a lens file of their choice.
 
+### Program Versions used in this 
+- Zemax OpticStudio Professional Edition 
+- MATLAB R2017a
+
+### PC Specifications
+- 64 GB RAM
+- 64 Bit
+- OS: Microsoft Windows 7
 
 ## Overview of Programmatic Interfacing with Zemax
 Zemax offers two ways of programmatically interfacing with OpticStudio suite: *Interactive Extensions* and *Standalone Applications* (These are described in greater detail below). Put simply, these modes serve as channels between Zemax and MATLAB, allowing users to operate OpticStudio via code rather than through the GUI. Consequently, users can quickly perform multiple iterations of a batch analysis on their optical designs and collect simulated data. Here we have written both an Interactive Application and a Standlone Application in MATLAB and offer a guide on how to use them.
@@ -31,7 +39,7 @@ You can find the API documentation by navigating through the following tabs in a
 - [General Interfacing and ZOS-API Overview](http://customers.zemax.com/os/opticstudio/opticstudio/user-interface/zos-api)
 - [Setting Up a Standalone Application in MATLAB](http://customers.zemax.com/zmx/webinars/opticstudio-recordings/matlab-zos-api-net)
 
-## Example 
+
 
 
 
