@@ -9,3 +9,4 @@ The Multi-Sensor DiffuserCam project is an exploration in multi-sensor diffuser-
 - OS: Microsoft Windows 7 - 64 Bit
 - RAM: 64 GB
 - CPU: 8-core Intel i7-5960X
+- GPU: 
